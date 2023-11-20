@@ -1,0 +1,111 @@
+.searchloc {
+  margin-left: 8rem;
+  margin-top: 2rem;
+  margin-right: 3rem;
+  width: 30%;
+  margin-left: auto;
+}
+
+.searchloc input {
+  border: 2px solid #02164f;
+}
+
+.searchloc input:hover {
+  border: 2px solid #f37022;
+}
+.loca {
+  margin: 3rem;
+  width: 100vw;
+}
+
+/* Add or update these styles in your All.css file */
+.loca {
+  background-color: rgba(255, 255, 255, 0.8); /* Translucent white background */
+  padding: 20px; /* Add padding for spacing */
+  min-width: 1000px;
+}
+
+.location-card {
+  border: 1px solid #ccc; /* Add a border for separation between cards */
+  border-radius: 8px; /* Add border radius for rounded corners */
+  padding: 20px; /* Add padding for spacing within each card */
+  margin-bottom: 20px; /* Add margin at the bottom of each card */
+  width: 100%; /* Make the card take up the full width of its container */
+  min-width: 700px; /* Set a maximum width to control the card size */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.location-card h3 {
+  margin-bottom: 10px; /* Add margin below the title */
+}
+
+.location-card p {
+  margin-bottom: 15px; /* Add margin below the description */
+}
+
+.location-card audio {
+  width: 100%; /* Make the audio player fill the card width */
+  margin-top: 15px; /* Add margin at the top of the audio player */
+}
+
+/* Set a minimum height for the location card to increase its size */
+.location-card {
+  min-height: 300px; /* Adjust the minimum height as needed */
+  min-width: 400px; /* Adjust the minimum width as needed */
+}
+
+/* Optional: Add hover effect for better visual feedback */
+.location-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow on hover */
+  transition: box-shadow 0.3s ease; /* Smooth transition for the box shadow */
+}
+
+.mainDiv {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 75%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.container.loca {
+  max-width: 1140px; /* Adjust the max-width as needed */
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+  .mainDiv {
+    width: 80%;
+  }
+  .loca {
+    min-width: 100%;
+  }
+  .searchloc {
+    width: 100%;
+  }
+  .location-card {
+    min-width: 50%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .mainDiv {
+    width: 80%;
+  }
+  .loca {
+    min-width: 80%;
+  }
+  .location-card {
+    min-width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainDiv {
+    width: 80%;
+  }
+  .loca {
+    min-width: 80%;
+  }
+}

@@ -1,0 +1,51 @@
+/* Navbar.css */
+
+.navbar {
+  background-color: #343a40; /* Dark background color */
+  height: 100px; /* Increased height */
+  padding: 15px 0; /* Added padding for better visual appeal */
+}
+
+.navbar-brand {
+  font-size: 2rem; /* Larger font size for the brand text */
+  color: #ffc107; /* Brand text color */
+  transform: translateX(-10px); /* Shift the logo towards the left */
+}
+
+.navbar-toggler-icon {
+  background-color: #ffc107; /* Color for the toggler icon */
+}
+
+.navbar-toggler {
+  border: none; /* Remove border from the toggler button */
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 20px; /* Increased margin between li elements */
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.4rem; /* Larger font size for nav links */
+  color: #ffffff; /* Default color for nav links */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #39a7ff; /* Color on hover */
+}
+
+/* Optional: Add box shadow for a subtle elevation effect */
+.navbar {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Style for active link */
+.navbar-nav .nav-item.active .nav-link {
+  color: #17a2b8;
+  font-weight: bold;
+}

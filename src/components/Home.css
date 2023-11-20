@@ -1,0 +1,109 @@
+/* Home.css */
+
+body {
+  font-family: "Arial", sans-serif;
+}
+
+.podcast-home {
+  background-color: #1d1d1d;
+  padding: 80px 0;
+}
+
+.jumbotron {
+  background-color: #1db954;
+  background-size: cover;
+  color: #fff;
+  padding: 80px 0;
+  text-align: center;
+  border-radius: 0;
+}
+
+.jumbotron h1,
+.jumbotron p {
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.podcast-image {
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.podcast-description,
+.episode-description {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.list-unstyled {
+  padding: 0;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-right .list-unstyled {
+  padding: 0;
+}
+
+.audio-file {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.audio-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.play-progress-bar {
+  height: 8px;
+  background-color: #dee2e6;
+  border-radius: 4px;
+  width: 200px;
+  margin-right: 15px;
+  position: relative;
+}
+
+.play-progress {
+  height: 100%;
+  background-color: #000000;
+  border-radius: 4px;
+  width: 50%;
+}
+
+.episode-details {
+  flex-grow: 1;
+}
+
+.text-dark {
+  color: white;
+}
+
+.podcast-item {
+  background-color: #20a84f; /* Green background color */
+  padding: 15px; /* Adjust padding as needed */
+  margin-bottom: 20px; /* Adjust margin as needed */
+  transition: box-shadow 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.podcast-item:hover {
+  box-shadow: 0 0 10px rgba(76, 187, 23, 0.5); /* Green shadow on hover */
+}
